@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sales calculator</title>
+	<style type="text/css">
+    body{
+        background-color: lightblue;
+    }
+  
+         h1{
+            font-size: 40px; 
+            margin: 10px;
+            text-align: center;
+
+        }
+         .header{
+            padding: 3px 0;
+            background-color: #679BB7; 
+            width: 465px;
+            border: dotted;
+        }
+        .container {
+    background-color: lightgrey;
+    width: 100%px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 34%
+    }	
+    #th1
+    {
+    	font-size: 30px;
+    	
+    	
+    }
+    .th
+    {
+    	border: solid black;
+    	background-color: pink;
+    	
+    }
+    #b
+    {
+    	outline-color: red;
+    	padding-bottom: 2px green;
+    		background-color: red;
+    		border-radius: 12px;
+    		font-size: 20px ;
+    		position: relative;
+    		left: 190px;
+    		top: 10px
+    }
+    .t{
+    	font-size: 20px;
+    	text-align: center;
+        border: 2px solid blue;
+
+    }
+    .ch{
+       position: relative;
+       left: 20%;
+       outline: dotted green;
+          
+    }
+    
+	</style>
+	
+</head>
+<body>
+<div class="container">
+       <div class="header">
+              <h1>Sales </h1>
+            </div>
+            <form action="cal">
+            	<table>
+            		<tr id="th1">
+            			<th class="th">Product</th>
+            			<th class="th">Quantity</th>
+            			<th class="th">Price </th>
+            		</tr>	
+            		<tr>
+            			<td class="t">Shirt<input type="checkbox" name="Shirt" class="ch"></td>
+            			<td ><input type="text" name="Quantity1"></td>
+            			<td><input type="text" name="Prices1"></td>
+            		</tr>
+            		<tr>
+            			<td class="t">Tshirt<input type="checkbox" name="tshirt" class="ch"></td>
+            			<td><input type="text" name="Quantity2"></td>
+            			<td><input type="text" name="Prices2"></td>
+            		</tr>
+
+            		
+                 </table>
+                 <button type="Submit" id="b">Calculate</button>
+            </form>
+        
+</div>
+</body>
+</html>
